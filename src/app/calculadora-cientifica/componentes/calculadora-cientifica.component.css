@@ -1,0 +1,53 @@
+
+
+.display_calculator{
+    background: rgb(157, 163, 193) !important;
+    min-height: 12vh;
+    font-size: 4vh;
+    
+}
+
+button{
+
+    width: 100%;
+    min-height: 10vh;
+    font-size: 4.5vh !important;
+    border: none;
+}
+
+.row {
+    margin: 2vh;
+}
+
+.number_button{
+    background: rgb(210, 217, 255);
+    border: none;
+}
+
+.number_button:hover{
+    opacity: 0.6;
+    transform: scale(1.06);
+    background: rgb(210, 217, 255);
+}
+
+.op_button{
+    background: rgb(56, 70, 155);
+    border: none;
+    color: white;
+}
+
+.op_button:hover{
+    opacity: 0.6;
+    transform: scale(1.06);
+    background: rgb(56, 70, 155);
+    color: black;
+}
+
+.res_button{
+    background: linear-gradient(90deg, rgb(133, 149, 255) 0%, rgb(74, 184, 52) 100%);
+    color: black;
+}
+
+.res_button:hover{
+    background: linear-gradient(90deg, rgb(74, 184, 52) 0%, rgb(133, 149, 255) 100%);
+}
